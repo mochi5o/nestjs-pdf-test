@@ -7,7 +7,7 @@ import { PdfService } from './pdf.service';
     imports: [
         PDFModule.register({
             view: {
-                root: '/Users/mochiko/tmp/nest/nest-0504/project/src/template',
+                root: '/path-to-project/src/template',
                 engine: 'pug',
             },
         }),
